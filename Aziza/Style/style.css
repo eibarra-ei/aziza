@@ -1,0 +1,127 @@
+.dropdown-menu>li /* Para evitar la selección de texto */
+{   position:relative;
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    /* Las reglas a continuación no están implementadas en los navegadores todavía */
+    -o-user-select: none;
+    user-select: none;
+    cursor:pointer;
+}
+.dropdown-menu .sub-menu 
+{
+    left: 100%;
+    position: absolute;
+    top: 0;
+    display:none;
+    margin-top: -1px;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+    border-left-color:#fff;
+    box-shadow:none;
+}
+.right-caret:after,.left-caret:after
+ {  content:"";
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    display: inline-block;
+    height: 0;
+    vertical-align: middle;
+    width: 0;
+    margin-left:5px;
+}
+.right-caret:after
+{   border-left: 5px solid #ffaf46;
+}
+.left-caret:after
+{   border-right: 5px solid #ffaf46;
+}
+
+.titlePagFont {
+	font-family: 'Patrick Hand', cursive;
+}
+
+section,nav {
+	font-family: 'Patrick Hand SC', cursive;
+}
+
+#login {
+	size:20px;
+}
+
+iframe{ max-width:100%;
+		max-height: auto; 
+
+}
+
+nav a, header a {
+	color: #FF28E8;
+ 	/*font-weight: 700;*/
+}
+
+footer div a i {
+	color:black;
+}
+
+.bodystyle {
+	background-color:#f6e7f1;
+
+}
+
+.bodystyle footer{
+	background-color:#e4b6d5;
+	font-family: 'Patrick Hand SC', cursive;	
+}
+
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:60px;
+  width:100%;
+}
+
+/*Boton Flotante*/
+#boton-tel {
+
+  display:block;
+  width:70px;
+  height:70px;
+  color#fff;
+  position: fixed;
+  right:20px;
+  bottom:80px;
+  border-radius:50%;
+  line-height:80px;
+  text-align:center;
+  z-index:999;
+
+}
+
+
+#boton-top {
+ display:block;
+ width:70px;
+ height:70px;
+ color:#fff;
+ position: fixed;
+ right:20px;
+ bottom:80px;
+ border-radius:50%;
+ line-height:80px;
+ text-align:center;
+ z-index:999;
+ background-color: transparent;
+ background-color: #473b43;
+ border-color: #473b43;
+}
+
+#flotante{
+	color: white;
+}
+
+
+/*font-family: 'Patrick Hand', cursive; (Titulo)
+font-family: 'Patrick Hand SC', cursive; (Texto)*/
+
+/*https://www.javierbalcazar.com/bancos-de-imagenes-gratis-descargar-fotos/#Pexels*/
